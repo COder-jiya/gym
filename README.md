@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 <style>
 h1{text-align: center;}
    nav {
       width: 100%;
-      background: rgba(128, 128, 128, 0.4);
+      background: rgba(127, 60, 204, 0.4);
       backdrop-filter: blur(10px);
       display: flex;
       justify-content: space-between;
@@ -47,6 +50,9 @@ h1{text-align: center;}
       font-size: 26px;
       color: white;
       cursor: pointer;
+    }
+    a:active{
+       color: rgb(255, 0, 179);
     }
 
     /* Responsive Navbar for Mobile */
@@ -94,26 +100,51 @@ h1{text-align: center;}
     
   }
 
+nav:active{
+  color: pink;
+}
+
+ :root{
+      --bg:#0b0b0d;
+      --card:#121219;
+      --text:#e8eaee;
+      --muted:#a7adba;
+      --brand:#00bfff;
+      --accent:#1f8fff;
+      --success:#42d392;
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    * { box-sizing:border-box }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height:1.6;
+    }
+
 </style>
 </head>
 <body>
   <!-- Navbar -->
   <nav>
-    <a href="website.html" class="logo">
-  <img src="GYM_logo.jspg.png"height=50px; alt="Fitzone Gym Logo">
+    <a href="Index.html" class="logo">
+  <!-- <img src="GYM_logo.jspg.png"height=50px; alt="Fitzone Gym Logo"> -->
+   <h3>❚█══█❚FitZone</h3>
 </a>
 
     <!-- <div class="logo">Travel Explorer</div> -->
     <div class="menu-btn">☰</div>
     <div class="nav-links">
        
-      <a href="website.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="Privacy.html">Privacy Policy</a>
-      <a href="login.html">Login</a>
-      <a href="Booking.html">Book Trip</a>
-      <a href="Discover more.html">Discover More</a>
-      <a href="trip_detail.html">Trip Details</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="contact.html">Contact</a>
+      <a href="Class.html">Classes</a>
+      <a href="Trainers.html">Trainers Detail</a>
+     <a href="join.html">Join now</a>
+      
     </div>
   </nav> 
   
@@ -130,9 +161,14 @@ h1{text-align: center;}
   </div>
 </section>
 <br> <br>
-  
-    <H1>Push Your Limits. Transform Your Life</H1>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <p>
+    <H1><I>'Push Your Limits. Transform Your Life'</I></H1>
+    </p>
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script>
     const menuBtn = document.querySelector('.menu-btn');
