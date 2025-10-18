@@ -137,7 +137,7 @@ nav:active{
     .paraI{
       font-size: 20px;
       text-align: center;
-      margin: 0 100px;
+      margin: 0 30px;
       padding: 20px;
     }
 
@@ -252,7 +252,7 @@ nav:active{
   
    <p> <H1 style="color: #0b0220;">This is best time to JOIN US</H1>
      <p style="font-size: 30px; text-align: center;"> <i>'Push Your Limits. Transform Your Life'</i></p>
-     <p style="font-size: 20px; text-align: center;">At FitZone Gym, we believe in empowering individuals to achieve their fitness goals through a combination of expert guidance, state-of-the-art facilities, and a supportive community. Our mission is to provide a welcoming environment where everyone, regardless of their fitness level, can thrive and transform their lives.</p>
+     <p style="font-size: 20px; text-align: center; color: #36074a;">At FitZone Gym, we believe in empowering individuals to achieve their fitness goals through a combination of expert guidance, state-of-the-art facilities, and a supportive community. Our mission is to provide a welcoming environment where everyone, regardless of their fitness level, can thrive and transform their lives.</p>
    
      <div class="paraI">
       <div class="video1">
@@ -265,10 +265,15 @@ nav:active{
         
       </p>
         </div>
-        <h1 style="padding: 3%;">WHY JOIN OUR CLASSES </h1>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/tUykoP30Gb0" title="Gym cinematic promotion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1 style="padding: 1%;">WHY JOIN OUR CLASSES </h1>
+       
+        <p style="color: #0b0220;text-align: left;">At FitZone Gym, our certified trainers, modern equipment, and motivating community help you reach your fitness goals faster.
+           We offer a variety of workouts — from strength training and cardio to yoga and Zumba — all tailored to your body and lifestyle. 
+           With personal guidance, flexible timings, and affordable memberships, we make fitness simple, fun, and effective for everyone.</p>
+        <iframe width="814" height="414" src="https://www.youtube.com/embed/tUykoP30Gb0" title="Gym cinematic promotion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
+        <h2 style="color: #121219;text-shadow: #a7adba; margin: 10px;">About Us</h2>
         <div class="card-container">
-
     <div class="price-card">
       <h3>💪1.Expert Trainers</h3>
       <p><strong>Our certified and experienced trainers guide you with proper techniques, personalized workouts, and motivation to achieve your goals faster and safely</strong></p>
@@ -292,14 +297,58 @@ nav:active{
       <p><strong>Flexible plans, seasonal discounts, and value-for-money packages for every fitness goal.</strong></p>
       <a href="Booking.html" class="btn btn-primary">Membership</a>
     </div>
-    <p>🧑‍🏫 5. Meet Our Trainers</p>
-        </div>
         
+    
+        </div>
+        <h1>🧑‍🏫Meet Our Trainers</h1>
+        <p style="color: #0b0220;">Our certified trainers are dedicated to helping you achieve your fitness goals with personalized guidance and support. Whether you're a beginner or an experienced athlete, our team is here to motivate and inspire you every step of the way.</p>
+      
+        
+
+
 
    
 
 
-
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://media.istockphoto.com/id/2175627902/photo/female-athlete-performing-battle-rope-exercise-in-a-gym-front-view-of-a-woman-doing.webp?a=1&b=1&s=612x612&w=0&k=20&c=_w_6GhJTFHLP2NF-K7bpPj9b_egjxBP85QO2I1LezZg=" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script>
