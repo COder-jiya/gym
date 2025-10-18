@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>❚█══█❚FitZone</title>
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-</head>
 <style>
 h1{text-align: center;}
    nav {
       width: 100%;
-     background: rgba(127, 60, 204, 0.4);
+      background: rgba(127, 60, 204, 0.4);
       backdrop-filter: blur(10px);
       display: flex;
       justify-content: space-between;
@@ -75,33 +75,37 @@ h1{text-align: center;}
         display: block;
       }
     }
-    .hero{
-      position:relative; isolation:isolate;
-      min-height:52vh; display:grid; place-items:center;
-      text-align:center; overflow:hidden;
-      background:
-        linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.65)),
-        url('images/about-hero.jpg') center / cover no-repeat;
-    }
-    .hero h1{
-      font-family:Montserrat, sans-serif; font-size:clamp(2rem, 4vw, 3rem);
-      margin:6rem 0 .6rem;
-    }
-    .hero p{ color:var(--muted); margin:0 0 2rem }
-    .badges{ display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:3rem }
-    .badge{
-      border:1px solid rgba(255,255,255,.12); padding:8px 14px; border-radius:999px;
-      background:rgba(255,255,255,.04); font-weight:600; color:var(--text);
-    }
-    @media (max-width: 560px){
-         .stats{ grid-template-columns:1fr 1fr }
-      .hero{ min-height:46vh }
-    }
-        /* Simple container */
-    .container{ width:min(1100px, 92%); margin-inline:auto }
+     body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* full screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  }
+  .hero h1 {
+    font-size: 3rem;
+    
 
-    :root{
-      --bg:#040a69;
+  }
+  .btnn{
+    color: azure;
+    
+  }
+
+nav:active{
+  color: pink;
+}
+
+ :root{
+      --bg:#0b0b0d;
       --card:#121219;
       --text:#e8eaee;
       --muted:#a7adba;
@@ -115,41 +119,55 @@ h1{text-align: center;}
     body{
       margin:0;
       background:var(--bg);
+      /* background-image: url(https://media.istockphoto.com/id/1289183773/photo/sport-fitness-equipment-plates-metal-dumbbell-or-barbell-on-pink-color-background-3d-rendering.webp?a=1&b=1&s=612x612&w=0&k=20&c=MtFa6yTEZWO9kL_F0iqM31HEpJvFAASVfDCM3VgkwWs=); */
       color:var(--text);
       font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       line-height:1.6;
     }
-    .stats{
-      display:grid; grid-template-columns:repeat(4,1fr); gap:16px;
-      background:linear-gradient(90deg, rgba(0,191,255,.08), transparent);
-      border:1px solid rgba(255,255,255,.06);
-      padding:18px; border-radius:var(--radius)
-    }
-    .stat{ text-align:center }
-    .stat .n{ font-family:Montserrat; font-size:1.8rem; font-weight:800; color:var(--brand) }
-    .stat .l{ color:var(--muted) }
-     @media (max-width: 900px){
+    button:hover
+    {
+      cursor: pointer;
+      background-color: rgba(98, 140, 204, 0.1);
+      color: #e03065;
 
-      .stats{ grid-template-columns:1fr 1fr }
-     }
-      .card{
-      background:var(--card); border:1px solid rgba(255,255,255,.06);
-      border-radius:var(--radius); box-shadow:var(--shadow);
-      padding:26px;
     }
-    h2{ font-family:Montserrat, sans-serif; font-size:clamp(1.5rem, 2.6vw, 2.1rem); margin:0 0 12px }
-    .muted{ color:var(--muted) }
+    .paraI{
+      font-size: 20px;
+      text-align: center;
+      margin: 0 100px;
+      padding: 20px;
+    }
 
-    section{ padding:70px 0 }
-    .split{
-      display:grid; gap:28px; align-items:center;
-      grid-template-columns:1.2fr .8fr;
+
+    h1{
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
-   
-    </style>
+.video1{
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+
+}
+/* .imgbg{
+  background-image: url('https://images.unsplash.com/photo-1554284126-4c2b5f3f0b1e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+} */
+
+</style>
+</head>
 <body>
+  <!-- Navbar -->
   <nav>
     <a href="Index.html" class="logo">
+  <!-- <img src="GYM_logo.jspg.png"height=50px; alt="Fitzone Gym Logo"> -->
    <h3>❚█══█❚FitZone</h3>
 </a>
 
@@ -162,40 +180,60 @@ h1{text-align: center;}
       <a href="contact.html">Contact</a>
       <a href="Class.html">Classes</a>
       <a href="Trainers.html">Trainers Detail</a>
-     <a href="join.html">Join now</a>
+     <a href="membership.html">Membership</a>
+      <a href="login.html">Login</a>
+      <a href="join.html"><button style="border-radius: 20px;background-color: rgb(228, 167, 176);">Join now</button></a>
       
     </div>
   </nav> 
-
-   <!-- Hero -->
-  <header class="hero">
-    <div class="container">
-      <h1>About Fitzone Gym</h1>
-      <p>Where discipline meets performance. We build bodies, upgrade minds, and celebrate consistent progress.</p>
-      <div class="badges">
-        <span class="badge">Since 2019</span>
-        <span class="badge">Delhi • NCR</span>
-        <span class="badge">Strength • HIIT • Mobility</span>
-      </div>
-    </div>
-  </header>
-<section>
-  </p>
-        <div class="stats" style="margin-top:16px">
-          <div class="stat"><div class="n">10,000+</div><div class="l">Sessions Coached</div></div>
-          <div class="stat"><div class="n">1,200+</div><div class="l">Members Trained</div></div>
-          <div class="stat"><div class="n">85%</div><div class="l">12-Week Completion</div></div>
-          <div class="stat"><div class="n">4.8★</div><div class="l">Member Rating</div></div>
-        </div>
-      </div>
-    </p>
-  </section>
   
+    <!-- <section class="hero">
+    <h1> <i>"Push Your Limits. Transform Your Life"</i></h1>
+  </section> -->
+
+
+  <section class="hero">
+  <div class="overlay">
+    <h1><i>"Transform Your Body. Elevate Your Mind."</i></h1>
+    <p>Join <strong>Fitzone Gym</strong> — Where Strength Meets Discipline</p>
+    <a href="#membership" class="btnn">Start Free Trial</a>
+  </div>
+</section>
+<br> <br>
+
+  
+    <div class="imgbg">
+  
+   <p> <H1>This is best time to JOIN US</H1>
+     <p style="font-size: 30px; text-align: center;"> <i>'Push Your Limits. Transform Your Life'</i></p>
+     <p style="font-size: 20px; text-align: center;">At FitZone Gym, we believe in empowering individuals to achieve their fitness goals through a combination of expert guidance, state-of-the-art facilities, and a supportive community. Our mission is to provide a welcoming environment where everyone, regardless of their fitness level, can thrive and transform their lives.</p>
+   
+     <div class="paraI">
+      <div class="video1">
+        <video src="3195395-uhd_3840_2160_25fps.mp4" width="50%" height="auto" controls>workout</video>
+       <p> <b>What makes FitZone the best gym in India? </b>
+         FitZone offers a personalized, accessible, and inclusive place for your workout!
+        Offering the opportunity to stay healthy to people from all walks of life, FitZone offers avant-garde equipment and the latest fitness trends to keep you motivated, 
+        no matter your level of fitness.
+        <a href="knowmore.html"><button style="border-radius: 20px;background-color: rgb(15, 94, 168);">Know More...</button></a>
+        
+      </p>
+        </div>
+        </div>
+
+        </div>
+        
+
+   
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script>
     const menuBtn = document.querySelector('.menu-btn');
     const navLinks = document.querySelector('.nav-links');
-    menuBtn.onclick = () => {
+    menuBtn.onclick = () => { 
       navLinks.classList.toggle('show');
     };
   </script>
