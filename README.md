@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>❚█══█❚FitZone</title>
-        
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <style>
@@ -105,7 +107,7 @@ nav:active{
 }
 
  :root{
-      --bg:#0b0b0d;
+      --bg:#0b0220;
       --card:#121219;
       --text:#e8eaee;
       --muted:#a7adba;
@@ -119,7 +121,8 @@ nav:active{
     body{
       margin:0;
       background:var(--bg);
-      /* background-image: url(https://media.istockphoto.com/id/1289183773/photo/sport-fitness-equipment-plates-metal-dumbbell-or-barbell-on-pink-color-background-3d-rendering.webp?a=1&b=1&s=612x612&w=0&k=20&c=MtFa6yTEZWO9kL_F0iqM31HEpJvFAASVfDCM3VgkwWs=); */
+      background-image: url(https://images.freeimages.com/images/large-previews/ac2/soft-gradient-background-0410-5713724.jpg?fmt=webp&w=500); background-repeat: no-repeat; background-size: cover;
+      
       color:var(--text);
       font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       line-height:1.6;
@@ -160,6 +163,49 @@ nav:active{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 20px;
 } */
+
+ /* Cards Layout */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: 0 auto 40px auto;
+    }
+
+    /* Card Styling */
+    .price-card {
+      background: rgba(227, 186, 218, 0.8);
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .price-card:hover {
+      transform: scale(1.05);
+      background: rgba(100, 181, 246, 0.9);
+      color: white;
+    }
+
+    .price-card h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #004d40;
+    }
+
+    .price-card p {
+      margin: 5px 0;
+      font-size: 15px;
+      color: #121219;
+    }
+
+    .price-card a {
+      margin-top: 10px;
+    }
+   
 
 </style>
 </head>
@@ -204,14 +250,14 @@ nav:active{
   
     <div class="imgbg">
   
-   <p> <H1>This is best time to JOIN US</H1>
+   <p> <H1 style="color: #0b0220;">This is best time to JOIN US</H1>
      <p style="font-size: 30px; text-align: center;"> <i>'Push Your Limits. Transform Your Life'</i></p>
      <p style="font-size: 20px; text-align: center;">At FitZone Gym, we believe in empowering individuals to achieve their fitness goals through a combination of expert guidance, state-of-the-art facilities, and a supportive community. Our mission is to provide a welcoming environment where everyone, regardless of their fitness level, can thrive and transform their lives.</p>
    
      <div class="paraI">
       <div class="video1">
         <video src="3195395-uhd_3840_2160_25fps.mp4" width="50%" height="auto" controls>workout</video>
-       <p> <b>What makes FitZone the best gym in India? </b>
+       <p> <b style="color: #0b0220;">What makes FitZone the best gym in India? </b>
          FitZone offers a personalized, accessible, and inclusive place for your workout!
         Offering the opportunity to stay healthy to people from all walks of life, FitZone offers avant-garde equipment and the latest fitness trends to keep you motivated, 
         no matter your level of fitness.
@@ -219,8 +265,34 @@ nav:active{
         
       </p>
         </div>
-        </div>
+        <h1 style="padding: 3%;">WHY JOIN OUR CLASSES </h1>
+        <iframe width="914" height="514" src="https://www.youtube.com/embed/tUykoP30Gb0" title="Gym cinematic promotion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-container">
 
+    <div class="price-card">
+      <h3>💪1.Expert Trainers</h3>
+      <p><strong>Our certified and experienced trainers guide you with proper techniques, personalized workouts, and motivation to achieve your goals faster and safely</strong></p>
+      <a href="Booking.html" class="btn btn-primary">Trainers</a>
+    </div>
+    <div class="price-card">
+      <h3>🕒2.Flexible Timings</h3>
+      <p><strong>We offer early morning, evening, and weekend sessions — choose what fits your lifestyle best.</strong></p>
+      <a href="Booking.html" class="btn btn-primary">Schedule</a>
+    
+    </div>
+    <div class="price-card">
+      <h3>🧘‍♂️3.Variety of Classes</h3>
+      <p><strong>From strength training and HIIT to yoga, Zumba, and functional workouts — there’s something for everyone.</strong></p>
+
+      <a href="Booking.html" class="btn btn-primary">Join Classes</a>
+    
+    </div>
+    <div class="price-card">
+      <h3>💸4.Affordable Memberships</h3>
+      <p><strong>Flexible plans, seasonal discounts, and value-for-money packages for every fitness goal.</strong></p>
+      <a href="Booking.html" class="btn btn-primary">Membership</a>
+    </div>
+    <p>🧑‍🏫 5. Meet Our Trainers</p>
         </div>
         
 
